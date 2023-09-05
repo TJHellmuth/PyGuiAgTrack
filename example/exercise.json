@@ -1,0 +1,364 @@
+{
+    "Exercise": [
+        {
+            "name": "Aufgabe 0-0: Abgabe des Übungsblatt ",
+            "id": 1,
+            "points": 6,
+            "date": "01.12.2022"
+        },
+        {
+            "name": "Aufgabe 0-1: Lineare Gleichungsysteme ",
+            "id": 2,
+            "points": 15,
+            "date": "16.10.2022"
+        },
+        {
+            "name": "Aufgabe 0-2: Terme umformen ",
+            "id": 3,
+            "points": 14,
+            "date": "07.01.2023"
+        },
+        {
+            "name": "Aufgabe 0-3: Funktionen - Nullstellen ",
+            "id": 4,
+            "points": 11,
+            "date": "14.12.2022"
+        },
+        {
+            "name": "Aufgabe 0-4: Funktionen - Differenzieren ",
+            "id": 5,
+            "points": 4,
+            "date": "28.11.2022"
+        },
+        {
+            "name": "Aufgabe 0-5: Funktionen - Integrieren ",
+            "id": 6,
+            "points": 8,
+            "date": "09.11.2022"
+        },
+        {
+            "name": "Aufgabe 0-6: Mengen und deren Definition ",
+            "id": 7,
+            "points": 4,
+            "date": "14.01.2023"
+        },
+        {
+            "name": "Aufgabe 10-1: Integration durch Substitution ",
+            "id": 8,
+            "points": 13,
+            "date": "22.11.2022"
+        },
+        {
+            "name": "Aufgabe 10-2: Stammfunktionen ",
+            "id": 9,
+            "points": 14,
+            "date": "29.12.2022"
+        },
+        {
+            "name": "Aufgabe 10-3: Uneigentliche Integrale ",
+            "id": 10,
+            "points": 10,
+            "date": "05.11.2022"
+        },
+        {
+            "name": "Aufgabe 10-4: Partialbruchzerlegung ",
+            "id": 11,
+            "points": 9,
+            "date": "17.11.2022"
+        },
+        {
+            "name": "Aufgabe 10-5: Kolbengeschwindigkeit eines Hubkolbenmotors ",
+            "id": 12,
+            "points": 1,
+            "date": "23.01.2023"
+        },
+        {
+            "name": "Aufgabe 11-1: Integration durch Substitution I ",
+            "id": 13,
+            "points": 0,
+            "date": "19.12.2022"
+        },
+        {
+            "name": "Aufgabe 11-2: Integration durch Substitution II ",
+            "id": 14,
+            "points": 5,
+            "date": "26.11.2022"
+        },
+        {
+            "name": "Aufgabe 11-3: Uneigentliche Integrale ",
+            "id": 15,
+            "points": 13,
+            "date": "25.10.2022"
+        },
+        {
+            "name": "Aufgabe 11-4: Integrale berechnen ",
+            "id": 16,
+            "points": 14,
+            "date": "13.12.2022"
+        },
+        {
+            "name": "Aufgabe 12-1: Reifenmodell ",
+            "id": 17,
+            "points": 13,
+            "date": "26.01.2023"
+        },
+        {
+            "name": "Aufgabe 12-2: Ableiten ",
+            "id": 18,
+            "points": 6,
+            "date": "13.12.2022"
+        },
+        {
+            "name": "Aufgabe 12-3: Volumen eines Rotationskörpers ",
+            "id": 19,
+            "points": 13,
+            "date": "17.01.2023"
+        },
+        {
+            "name": "Aufgabe 12-4: Fläche zwischen 2 Kurven ",
+            "id": 20,
+            "points": 14,
+            "date": "19.11.2022"
+        },
+        {
+            "name": "Aufgabe 1-1: Komplexe Zahlen ",
+            "id": 21,
+            "points": 1,
+            "date": "28.10.2022"
+        },
+        {
+            "name": "Aufgabe 1-2: Polynome ",
+            "id": 22,
+            "points": 10,
+            "date": "30.11.2022"
+        },
+        {
+            "name": "Aufgabe 1-3: Rechenaufgaben ",
+            "id": 23,
+            "points": 13,
+            "date": "08.10.2022"
+        },
+        {
+            "name": "Aufgabe 1-4: Exponentialfunktion ",
+            "id": 24,
+            "points": 2,
+            "date": "15.10.2022"
+        },
+        {
+            "name": "Aufgabe 2-1: Umkehrfunktionen ",
+            "id": 25,
+            "points": 9,
+            "date": "01.01.2023"
+        },
+        {
+            "name": "Aufgabe 2-2: Trigonometrische Funktionen ",
+            "id": 26,
+            "points": 7,
+            "date": "30.11.2022"
+        },
+        {
+            "name": "Aufgabe 2-3: Nullstellen ",
+            "id": 27,
+            "points": 2,
+            "date": "24.11.2022"
+        },
+        {
+            "name": "Aufgabe 2-4: Komplexe Zahlen ",
+            "id": 28,
+            "points": 15,
+            "date": "16.10.2022"
+        },
+        {
+            "name": "Aufgabe 2-5: Logarithmus ",
+            "id": 29,
+            "points": 6,
+            "date": "06.12.2022"
+        },
+        {
+            "name": "Aufgabe 3-1: Schnittpunkt von Geraden ",
+            "id": 30,
+            "points": 10,
+            "date": "15.12.2022"
+        },
+        {
+            "name": "Aufgabe 3-2: Geraden und Ebenen ",
+            "id": 31,
+            "points": 2,
+            "date": "18.11.2022"
+        },
+        {
+            "name": "Aufgabe 3-3: Winkel zwischen Vektoren - Skalarprodukt ",
+            "id": 32,
+            "points": 12,
+            "date": "29.12.2022"
+        },
+        {
+            "name": "Aufgabe 3-4: Lineares Gleichungssystem ",
+            "id": 33,
+            "points": 11,
+            "date": "25.11.2022"
+        },
+        {
+            "name": "Aufgabe 3-5: Lineares Gleichungssystem invertieren ",
+            "id": 34,
+            "points": 0,
+            "date": "23.11.2022"
+        },
+        {
+            "name": "Aufgabe 4-1: Determinante ",
+            "id": 35,
+            "points": 12,
+            "date": "15.11.2022"
+        },
+        {
+            "name": "Aufgabe 4-2: Eigenwerte einer symmetrischen Matrix ",
+            "id": 36,
+            "points": 7,
+            "date": "27.11.2022"
+        },
+        {
+            "name": "Aufgabe 4-3: Drehung von Vektoren ",
+            "id": 37,
+            "points": 6,
+            "date": "15.01.2023"
+        },
+        {
+            "name": "Aufgabe 4-4: Spatprodukt ",
+            "id": 38,
+            "points": 5,
+            "date": "09.11.2022"
+        },
+        {
+            "name": "Aufgabe 5-1: Grenzwert einer Funktion ",
+            "id": 39,
+            "points": 3,
+            "date": "01.12.2022"
+        },
+        {
+            "name": "Aufgabe 5-2: Koordinatensysteme - Selbststudium ",
+            "id": 40,
+            "points": 3,
+            "date": "30.12.2022"
+        },
+        {
+            "name": "Aufgabe 5-3: Graphen von Funktionen ",
+            "id": 41,
+            "points": 4,
+            "date": "22.12.2022"
+        },
+        {
+            "name": "Aufgabe 5-5: Lasergravur - Strahlumlenkung ",
+            "id": 42,
+            "points": 5,
+            "date": "02.11.2022"
+        },
+        {
+            "name": "Aufgabe 6-1: Differenzieren - Polynome ",
+            "id": 43,
+            "points": 15,
+            "date": "22.12.2022"
+        },
+        {
+            "name": "Aufgabe 6-2: Winkelfunktionen / Exponentialfunktionen ",
+            "id": 44,
+            "points": 12,
+            "date": "01.12.2022"
+        },
+        {
+            "name": "Aufgabe 6-3: Winkelfunktionen  umformen ",
+            "id": 45,
+            "points": 4,
+            "date": "02.11.2022"
+        },
+        {
+            "name": "Aufgabe 7-1: Summenregel ",
+            "id": 46,
+            "points": 6,
+            "date": "24.01.2023"
+        },
+        {
+            "name": "Aufgabe 7-2: Produktregel ",
+            "id": 47,
+            "points": 0,
+            "date": "02.01.2023"
+        },
+        {
+            "name": "Aufgabe 7-3: Ableiten der Umkehrfunktionen ",
+            "id": 48,
+            "points": 8,
+            "date": "22.12.2022"
+        },
+        {
+            "name": "Aufgabe 7-4: Differenzieren allgemein ",
+            "id": 49,
+            "points": 1,
+            "date": "15.12.2022"
+        },
+        {
+            "name": "Aufgabe 7-5: Rotierende Zylinderscheibe in einer zähen Flüssigkeit ",
+            "id": 50,
+            "points": 4,
+            "date": "11.01.2023"
+        },
+        {
+            "name": "Aufgabe 8-1: Kettenregel ",
+            "id": 51,
+            "points": 14,
+            "date": "26.10.2022"
+        },
+        {
+            "name": "Aufgabe 8-2: Optimieren auf einem vorgegebenen Intervall ",
+            "id": 52,
+            "points": 3,
+            "date": "18.10.2022"
+        },
+        {
+            "name": "Aufgabe 8-3: Optimieren - verschachtelte Pyramiden ",
+            "id": 53,
+            "points": 3,
+            "date": "12.11.2022"
+        },
+        {
+            "name": "Aufgabe 8-4: Differenzieren  ",
+            "id": 54,
+            "points": 13,
+            "date": "03.12.2022"
+        },
+        {
+            "name": "Aufgabe 8-5: Van-der-Waals Gas Gleichung - Differenzieren in der Thermodynamik ",
+            "id": 55,
+            "points": 7,
+            "date": "23.10.2022"
+        },
+        {
+            "name": "Aufgabe 9-1: Ableitung von Funktionen in Parameterdarstellung - Selbststudium ",
+            "id": 56,
+            "points": 10,
+            "date": "29.12.2022"
+        },
+        {
+            "name": "Aufgabe 9-2: Differenzieren ",
+            "id": 57,
+            "points": 11,
+            "date": "25.11.2022"
+        },
+        {
+            "name": "Aufgabe 9-3: Geometrie optimieren ",
+            "id": 58,
+            "points": 7,
+            "date": "07.01.2023"
+        },
+        {
+            "name": "Aufgabe 9-4: Partielle Integration ",
+            "id": 59,
+            "points": 3,
+            "date": "18.11.2022"
+        },
+        {
+            "name": "Aufgabe 9-5: Gaußsche Normalverteilung ",
+            "id": 60,
+            "points": 9,
+            "date": "07.11.2022"
+        }
+    ]
+}

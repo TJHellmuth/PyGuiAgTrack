@@ -1,0 +1,405 @@
+{
+    "Students": [
+        {
+            "name": "Charlotte Keller",
+            "id": 1,
+            "matrikelnummer": 303654,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Benjamin Solace",
+            "id": 2,
+            "matrikelnummer": 330710,
+            "solved_ex": [
+                6,
+                49
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "James Hansley",
+            "id": 3,
+            "matrikelnummer": 368575,
+            "solved_ex": [
+                30,
+                27,
+                5,
+                34
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Olivia Hansley",
+            "id": 4,
+            "matrikelnummer": 352069,
+            "solved_ex": [
+                55,
+                11,
+                60,
+                47,
+                22
+            ],
+            "presented_ex": [
+                47
+            ]
+        },
+        {
+            "name": "Lucas Jenkins",
+            "id": 5,
+            "matrikelnummer": 351414,
+            "solved_ex": [
+                3,
+                38,
+                19
+            ],
+            "presented_ex": [
+                3,
+                19
+            ]
+        },
+        {
+            "name": "Ava Daughtler",
+            "id": 6,
+            "matrikelnummer": 378993,
+            "solved_ex": [
+                13
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Henry Ford",
+            "id": 7,
+            "matrikelnummer": 363530,
+            "solved_ex": [
+                23
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Emma Hendrix",
+            "id": 8,
+            "matrikelnummer": 342195,
+            "solved_ex": [
+                10,
+                34
+            ],
+            "presented_ex": [
+                10
+            ]
+        },
+        {
+            "name": "Henry Daughtler",
+            "id": 9,
+            "matrikelnummer": 362210,
+            "solved_ex": [
+                36,
+                52
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "James Elsher",
+            "id": 10,
+            "matrikelnummer": 380313,
+            "solved_ex": [
+                26,
+                48,
+                26,
+                12
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Amelia Madison",
+            "id": 11,
+            "matrikelnummer": 330262,
+            "solved_ex": [
+                39,
+                55,
+                5,
+                12,
+                28
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Olivia Gonzales",
+            "id": 12,
+            "matrikelnummer": 307352,
+            "solved_ex": [
+                1,
+                48,
+                6,
+                43
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "James McKenna",
+            "id": 13,
+            "matrikelnummer": 397025,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Sophia St. James",
+            "id": 14,
+            "matrikelnummer": 395139,
+            "solved_ex": [
+                37,
+                11,
+                57,
+                17
+            ],
+            "presented_ex": [
+                11
+            ]
+        },
+        {
+            "name": "Amelia Adams",
+            "id": 15,
+            "matrikelnummer": 396420,
+            "solved_ex": [
+                52,
+                44,
+                7
+            ],
+            "presented_ex": [
+                44,
+                7
+            ]
+        },
+        {
+            "name": "Liam Zimmerman",
+            "id": 16,
+            "matrikelnummer": 381953,
+            "solved_ex": [
+                40,
+                4
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Emma Carter",
+            "id": 17,
+            "matrikelnummer": 357379,
+            "solved_ex": [
+                57,
+                36,
+                7,
+                10
+            ],
+            "presented_ex": [
+                57
+            ]
+        },
+        {
+            "name": "Luna Thatcher",
+            "id": 18,
+            "matrikelnummer": 308680,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Lucas Pierce",
+            "id": 19,
+            "matrikelnummer": 387516,
+            "solved_ex": [
+                29,
+                21
+            ],
+            "presented_ex": [
+                21
+            ]
+        },
+        {
+            "name": "Evelyn Cromwell",
+            "id": 20,
+            "matrikelnummer": 394236,
+            "solved_ex": [
+                13,
+                19,
+                20
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Lucas Wilson",
+            "id": 21,
+            "matrikelnummer": 342254,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Henry Hendrix",
+            "id": 22,
+            "matrikelnummer": 308427,
+            "solved_ex": [
+                56,
+                44,
+                43,
+                2
+            ],
+            "presented_ex": [
+                56,
+                43
+            ]
+        },
+        {
+            "name": "Oliver Pierce",
+            "id": 23,
+            "matrikelnummer": 374658,
+            "solved_ex": [
+                55,
+                35,
+                21,
+                3,
+                18
+            ],
+            "presented_ex": [
+                55
+            ]
+        },
+        {
+            "name": "Lucas Collymore",
+            "id": 24,
+            "matrikelnummer": 396727,
+            "solved_ex": [
+                45,
+                53
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Benjamin Verlice",
+            "id": 25,
+            "matrikelnummer": 302009,
+            "solved_ex": [
+                28,
+                5,
+                6,
+                51,
+                16
+            ],
+            "presented_ex": [
+                5,
+                6
+            ]
+        },
+        {
+            "name": "Oliver McKenna",
+            "id": 26,
+            "matrikelnummer": 338877,
+            "solved_ex": [
+                5,
+                36,
+                1,
+                45,
+                24
+            ],
+            "presented_ex": [
+                5,
+                36
+            ]
+        },
+        {
+            "name": "Amelia Bardot",
+            "id": 27,
+            "matrikelnummer": 389407,
+            "solved_ex": [
+                55,
+                0,
+                0,
+                13,
+                37
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Lucas Gonzales",
+            "id": 28,
+            "matrikelnummer": 350107,
+            "solved_ex": [
+                60,
+                57,
+                6
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "James Gray",
+            "id": 29,
+            "matrikelnummer": 397373,
+            "solved_ex": [
+                18,
+                60,
+                53
+            ],
+            "presented_ex": []
+        },
+        {
+            "name": "Lucas Langley",
+            "id": 30,
+            "matrikelnummer": 342825,
+            "solved_ex": [
+                49,
+                18,
+                60,
+                14
+            ],
+            "presented_ex": [
+                60
+            ]
+        },
+        {
+            "name": "Lucas Keller",
+            "id": 31,
+            "matrikelnummer": 343105,
+            "solved_ex": [
+                10,
+                40,
+                34,
+                50
+            ],
+            "presented_ex": [
+                10
+            ]
+        },
+        {
+            "name": "Olivia Beckett",
+            "id": 32,
+            "matrikelnummer": 351721,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Theodore Solace",
+            "id": 33,
+            "matrikelnummer": 306290,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Sophia Collymore",
+            "id": 34,
+            "matrikelnummer": 311333,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Amelia Wilson",
+            "id": 35,
+            "matrikelnummer": 338677,
+            "solved_ex": [],
+            "presented_ex": []
+        },
+        {
+            "name": "Sophia Huxley",
+            "id": 36,
+            "matrikelnummer": 386559,
+            "solved_ex": [],
+            "presented_ex": []
+        }
+    ]
+}

@@ -1,5 +1,6 @@
 import typing
 import random
+import os
 
 from PyQt6.QtWidgets import (
     QHBoxLayout,
@@ -19,7 +20,9 @@ class FontendModel(QtCore.QAbstractListModel):
         self.debug_name = name
         self.selector = selector
         self.removeAction = action
-        self.tick = QtGui.QImage('tick.png')
+        script_dir = os.path.dirname(__file__)
+        self.tick = QtGui.QImage(os.path.join(script_dir, 'tick.png'))
+        self.untick = QtGui.QImage(os.path.join(script_dir, 'untick.png'))
 
     def select_elemets(self):
         return self.selector(self.logic.students['Students'], self.logic.select_ex)
@@ -58,11 +61,14 @@ class FontendModel(QtCore.QAbstractListModel):
         students=self.select_elemets()
         st = students[index.row()]
         if role == QtCore.Qt.ItemDataRole.DisplayRole:
-            text = f"{st['name']}({st['matrikelnummer']})"
+            points = self.logic.query_points(st['solved_ex'])
+            text = f"{st['name']} (Punkte: {points})"
             return text
         if role == QtCore.Qt.ItemDataRole.DecorationRole:
             if  self.logic.select_ex in  st['presented_ex'] :
                 return self.tick
+            else:
+                return self.untick
     def rowCount(self, parent: QtCore.QModelIndex) -> int:
         return len(self.select_elemets())
 
@@ -189,7 +195,7 @@ class Window(QWidget):
         print(f"selected {selected_st=}")
 
         msgBox = QMessageBox()
-        msgBox.setText(f"{selected_st['name']} (Matrikel.Nr.: {selected_st['matrikelnummer']})")
+        msgBox.setText(f"{selected_st['name']}")
         msgBox.exec()
 
 

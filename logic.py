@@ -75,3 +75,8 @@ class logic:
             ex = json.load(f)
         validate(instance=ex, schema=exercise_schema)
         return ex
+
+
+    def query_points(self, ex_solved_list):
+        points = [ (iex['points'] if iex['id'] in ex_solved_list else 0) for iex in self.exersises["Exercise"]]
+        return  sum(points)

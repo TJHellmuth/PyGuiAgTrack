@@ -1,6 +1,6 @@
 
 import argparse
-from pathlib import PurePath
+import numpy as np
 import json
 from jsonschema import validate # see https://json-schema.org/understanding-json-schema/UnderstandingJSONSchema.pdf
 
@@ -76,7 +76,17 @@ class logic:
         validate(instance=ex, schema=exercise_schema)
         return ex
 
+    def getWeights(self, st_list):
+        num_presented =  np.array([len(st['presented_ex']) for st in st_list])
+        median = np.median(num_presented)
+        weights = 1/np.power(2,num_presented)
+        weights[num_presented > median] = 0
+        return weights
 
     def query_points(self, ex_solved_list):
         points = [ (iex['points'] if iex['id'] in ex_solved_list else 0) for iex in self.exersises["Exercise"]]
+        return  sum(points)
+
+    def query_total_points(self):
+        points = [ iex['points'] for iex in self.exersises["Exercise"]]
         return  sum(points)

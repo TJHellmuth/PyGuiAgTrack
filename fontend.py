@@ -62,7 +62,9 @@ class FontendModel(QtCore.QAbstractListModel):
         st = students[index.row()]
         if role == QtCore.Qt.ItemDataRole.DisplayRole:
             points = self.logic.query_points(st['solved_ex'])
-            text = f"{st['name']} (Punkte: {points})"
+            presented = len(st['presented_ex'])
+            points_toital = self.logic.query_total_points()
+            text = f"{st['name']} (Punkte: {points} / {points/points_toital*100:4.1f} % / {presented})"
             return text
         if role == QtCore.Qt.ItemDataRole.DecorationRole:
             if  self.logic.select_ex in  st['presented_ex'] :
@@ -190,7 +192,7 @@ class Window(QWidget):
 
     def choose(self):
         st_list = self.model_submitted.select_elemets()
-        weights = [1/(1+len(st['presented_ex']))  for st in st_list]
+        weights = self.logic.getWeights(st_list)
         selected_st = random.choices(st_list, weights=weights)[0]
         print(f"selected {selected_st=}")
 

@@ -64,7 +64,10 @@ class FontendModel(QtCore.QAbstractListModel):
             points = self.logic.query_points(st['solved_ex'])
             presented = len(st['presented_ex'])
             points_toital = self.logic.query_total_points()
-            text = f"{st['name']} (Punkte: {points} / {points/points_toital*100:4.1f} % / {presented})"
+            if('name' in st.keys()): 
+                text = f"{st['name']} (Punkte: {points} / {points/points_toital*100:4.1f} % / {presented})"
+            else:
+                text = f"{st['lastname']}, {st['firstname']}  (Punkte: {points} / {points/points_toital*100:4.1f} % / {presented})"
             return text
         if role == QtCore.Qt.ItemDataRole.DecorationRole:
             if  self.logic.select_ex in  st['presented_ex'] :
@@ -197,7 +200,10 @@ class Window(QWidget):
         print(f"selected {selected_st=}")
 
         msgBox = QMessageBox()
-        msgBox.setText(f"{selected_st['name']}")
+        if('name' in selected_st.keys()):
+            msgBox.setText(f"{selected_st['name']}")
+        else:
+            msgBox.setText(f"{selected_st['lastname']}, {selected_st['firstname']} ")
         msgBox.exec()
 
 

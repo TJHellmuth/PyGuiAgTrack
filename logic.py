@@ -13,8 +13,12 @@ students_schema = {
                 "type": "object",
                 "properties": {
                     "name": {"type": "string"},
+                    "firstname": {"type": "string"},
+                    "lastname": {"type": "string"},
                     "id": {"type": "integer"},
                     "matrikelnummer": {"type": "integer"},
+                    "studiengang":  {"type": "string"},
+                    "emailaddress": {"type": "string"},
                     "solved_ex": {"type": "array"},
                     "presented_ex": {"type": "array"}
                 },
